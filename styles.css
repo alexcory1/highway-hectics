@@ -1,0 +1,124 @@
+html *
+{
+   font-family: Avenir !important;
+}
+
+body {
+    background-color: #E7F4FF;
+
+  }
+  h1 {
+
+
+    text-align: center;
+    color: #4040F3;
+    border: 15px #EE6C4D;
+    padding:10px;
+
+  }
+  h2 {
+    color: #1C1C1C;
+    text-align: left;
+  }
+  p {
+    text-align: center;
+    color: #1C1C1C;
+  }
+  p1 {
+    color: #1C1C1C;
+
+  }
+  #divfix {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 3000;
+}
+
+  button {
+    justify-content: center;
+    background-color: #EE6C4D;
+    border: none;
+    color: #1C1C1C;
+    padding: 15px 20px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    border: 2px solid #1C1C1C;
+
+  }
+  button:active {
+    background-color: rgb(155, 193, 188);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+label {
+    color: #41414C;
+}
+  .checkbox-wrapper-2 .ikxBAC {
+    appearance: none;
+    background-color: #41414C;
+    border-radius: 72px;
+    border-style: none;
+    flex-shrink: 0;
+    height: 20px;
+    margin: 0;
+    position:relative;
+    width: 30px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::before {
+    bottom: -6px;
+    content: "";
+    left: -6px;
+    position: absolute;
+    right: -6px;
+    top: -6px;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC,
+  .checkbox-wrapper-2 .ikxBAC::after {
+    transition: all 100ms ease-out;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC::after {
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 14px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+  }
+
+  .checkbox-wrapper-2 input[type=checkbox] {
+    cursor: default;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:hover {
+    background-color: #41414C;
+    transition-duration: 0s;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked {
+    background-color: #6e79d6;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked::after {
+    background-color: #F7F7FF;
+    left: 13px;
+  }
+
+  .checkbox-wrapper-2 :focus:not(.focus-visible) {
+    outline: 0;
+  }
+
+  .checkbox-wrapper-2 .ikxBAC:checked:hover {
+    background-color: #535db3;
+  }

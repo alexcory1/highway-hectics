@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>
+    Highway Hectics
+</h1>
+
+<h2 style="text-align: center;">Total Number of Potholes:</h2> <p id="pot">0</p>
+<h2 style="text-align: center;">Turn:</h2> <p id="turnNum">0</p>
+<h2 style="text-align: center;">Satisfaction Stars: </h2> <p id="satisfaction">0</p>
+<div id="buttons" style="text-align: center;">
+<label>End Turn</label> <br>
+<button id="increment">Click to add potholes</button>  <br> <br>
+<label>Perform Maintenence</label> <br>
+<button id="fill"  >Patch Potholes</button>
+<br><br>
+
+<label>Click to add points</label> <br>
+        <button id="plusFourth">+1/4</button>
+        <button id="plusHalf">+1/2</button>
+        <button id="plusOne">+1</button>
+        <button id="plusTwo">+2</button>
+        <button id="minusOne">-1</button>
+
+        <br>
+        <br>
+        <button id="restart">Start Over</button>
+
+</div>
+
+
+
+<br><br>
+<h2>Other:</h2>
+<div class="checkbox-wrapper-2">
+    <input type="checkbox" class="sc-gJwTLC ikxBAC" id ="geotech" name = "geotech" value = "yes">
+    <label for="geotech"> Geotechnical Engineer </label>
+    <input type="checkbox" class="sc-gJwTLC ikxBAC" id ="inspector" name = "inspector" value = "yes">
+    <label for="Inspector"> Inspector Hired? </label>
+  </div>
+
+
+<script src="pothole.js"></script>
+</body>
+</html>
